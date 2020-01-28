@@ -1,0 +1,65 @@
+@font-face {
+   font-family: 'simplificasimplifica';
+   src: url('../../assets/simplifica.woff2') format('woff2'),
+        url('../../assets/simplifica.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 no-repeat top center;
+    background-size: cover !important;
+     -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+    font-size: 10vw;
+
+   @media only screen and (max-width: 1024px), screen and (max-height: 1024px) {
+      h1 {
+         font-size: 10vw;      
+      }
+      h3 {
+         font-size: 3vw;
+      }
+   }
+
+   @media only screen and (max-width: 480px) {
+      h1 {
+         font-size: 24vw;      
+         margin: 0 auto 24px auto;
+      }
+      h3 {
+         font-size: 7vw;
+         width: 90%;
+      }
+   }
+
+   .banner {
+      display: inline-block;
+      vertical-align: middle;
+      width: 85%;
+      padding-bottom: 30px;
+      text-align: center;
+      margin: 30vh auto;
+   }
+}
+
+ .name {
+    font: 6.125em 'opensans-bold', sans-serif;
+    font-family: 'simplificasimplifica', Arial, sans-serif;
+    color: #fff;
+    margin: 0 auto 18px auto;
+ }
+
+ .description {
+    font: 1.875em 'librebaskerville-regular', serif;
+    font-family: 'simplificasimplifica', Arial, sans-serif;
+    color: #A8A8A8;
+    margin: 0 auto;
+    width: 70%;
+ }
+

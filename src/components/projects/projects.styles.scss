@@ -1,0 +1,27 @@
+.portfolio {
+    background: #ebeeee;
+    padding: 90px 30px 60px 30px;
+}
+
+.projects {
+    line-height: 30px; 
+    color: #7A7A7A;
+    margin: 0 auto;
+    max-width: 1020px;
+    text-align: left;
+
+    @media screen and (max-width: 800px) {
+        text-align: center;
+     }
+
+    h5 {
+        line-height: 0px;
+        color: #313131;
+        font-size: 18px;
+    }
+}
+
+h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    font-weight: 550;
+}
