@@ -2,7 +2,7 @@
   "name": "reactsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mattr246.github.io/",
+  "homepage": "https://mattr246.github.io/portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
